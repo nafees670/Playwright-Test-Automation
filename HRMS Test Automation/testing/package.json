@@ -1,0 +1,15 @@
+{
+  "name": "hrmsplaywright-testing",
+  "version": "1.0.0",
+  "description": "HRMS Frontend Functional Testing with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report ../reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "typescript": "^5"
+  }
+}
